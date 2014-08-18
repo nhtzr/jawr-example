@@ -11,8 +11,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<title><decorator:title default="Struts Starter"/></title>
-	<jwr:style src="/bundles/myBundle.css" />
-    <script language="JavaScript" type="text/javascript" src="<s:url value='/struts/niftycorners/nifty.js'/>"></script>
+        <jwr:style src="/bundles/myBundle.css" />
+        <script language="JavaScript" type="text/javascript" src="/jawr-example/js/bundles/global.js"></script>
+        <script language="JavaScript" type="text/javascript" src="<s:url value='/struts/niftycorners/nifty.js'/>"></script>
 	<script language="JavaScript" type="text/javascript">
         window.onload = function(){
             if(!NiftyCheck()) {
